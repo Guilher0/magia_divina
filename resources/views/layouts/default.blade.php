@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav style="position: absolute;">
-            <div style="margin:15px 0 0 10px; ">
+            <div style="margin:15px 0 0 15px; ">
                 <a href="{{''}}"><img src="{{'imgIndex/logo-nav.png'}}" alt="logo" style="max-width: 250px"></a>
             </div>
         </nav>
