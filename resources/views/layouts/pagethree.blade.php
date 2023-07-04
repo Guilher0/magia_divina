@@ -3,21 +3,21 @@
 @section('content')
 <section class="titulo">
     {{--Cria a imagem de fundo com o titulo da pagina--}}
-    <div id="img-bg" class="bg img-bg" ></div>
+    <div id="img-bg3" class="bg3 img-bg3" ></div>
     <div id="title" class="title-img tamanho-container">
-        <h1 class="">
-            A solução rápida dos seus problemas<br>através da Magia Divina.
+        <h1 class="title-relax" style="font-size: 65px">
+            Ativação profunda de abundância e prosperidade para a sua vida.
         </h1>
     </div>
 </section>
 <section class="objetivo">
     <div class="texto-objetivos tamanho-container">
         <div class="titulo-objetivo">
-            <h2>A Magia no equilíbrio e cura<br>do ser humano e animais.</h2>
+            <h2>Seven Reiki / Estrela de Midas</h2>
         </div>
         <h3>
-            Transformação da realidade através do socorro imediato, conforto emocional, amparo espiritual, reconexão com a autoestima, restauração do equilíbrio físico, emocional e mental, abertura para a prosperidade e abundância.
-            Utilização de princípios naturais e mágicos dos elementos da Natureza através da conexão com a Mãe Terra <b>(água, terra, fogo e ar);</b> princípio químico e sutil das ervas <b>(fito energia)</b>; cristais; mantras; símbolos, práticas ritualísticas e cerimoniais de limpeza, banimento, proteção e harmonização.
+            Limpeza profunda dos chakras e de crenças limitantes, para ativação da prosperidade e abundância, abrindo o fluxo de energia para a instalação de um estado psíquico favorável ao crescimento e bem-aventurança física.
+Utilização de dois poderosos símbolos para limpeza energética e ativação de portal para abertura financeira.
         </h3>
     </div>
 </section>

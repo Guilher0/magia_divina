@@ -1,6 +1,11 @@
 <?php
 
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PagethreeController;
+use App\Http\Controllers\PagefourController;
+use App\Http\Controllers\PagefiveController;
+use App\Http\Controllers\PagesixController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,4 +21,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [IndexController::class, 'show']);
 
-//Route::get('/index', []);
+Route::get('/reiki', [PagesController::class, 'show']);
+
+Route::get('/sevenReiki', [PagethreeController::class, 'show']);
+
+Route::get('/fragmentosAlma', [PagefourController::class, 'show']);
+
+Route::get('/acupunturaEterica', [PagefiveController::class, 'show']);
+
+Route::get('/animalReiki', [PagesixController::class, 'show']);

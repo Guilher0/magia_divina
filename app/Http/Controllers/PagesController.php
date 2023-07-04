@@ -4,12 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class IndexController extends Controller
+class PagesController extends Controller
 {
     public function show()
     {
-        return view('layouts.pageone');
+        return view('layouts.pagetwo');
     }
-
 }
-

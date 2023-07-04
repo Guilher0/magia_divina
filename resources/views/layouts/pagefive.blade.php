@@ -3,21 +3,34 @@
 @section('content')
 <section class="titulo">
     {{--Cria a imagem de fundo com o titulo da pagina--}}
-    <div id="img-bg" class="bg img-bg" ></div>
+    <div id="img-bg5" class="bg5 img-bg5" ></div>
     <div id="title" class="title-img tamanho-container">
-        <h1 class="">
-            A solução rápida dos seus problemas<br>através da Magia Divina.
+        <h1 class="title-divorcio" style="font-size: 60px; text-align:start;">
+            Equilíbrio dos chakras e meridianos trazendo saúde e melhor fluxo da vida.
         </h1>
     </div>
 </section>
 <section class="objetivo">
     <div class="texto-objetivos tamanho-container">
         <div class="titulo-objetivo">
-            <h2>A Magia no equilíbrio e cura<br>do ser humano e animais.</h2>
+            <h2>Acupuntura Etérica</h2>
         </div>
         <h3>
-            Transformação da realidade através do socorro imediato, conforto emocional, amparo espiritual, reconexão com a autoestima, restauração do equilíbrio físico, emocional e mental, abertura para a prosperidade e abundância.
-            Utilização de princípios naturais e mágicos dos elementos da Natureza através da conexão com a Mãe Terra <b>(água, terra, fogo e ar);</b> princípio químico e sutil das ervas <b>(fito energia)</b>; cristais; mantras; símbolos, práticas ritualísticas e cerimoniais de limpeza, banimento, proteção e harmonização.
+            Colocação de agulhas de Acupuntura de forma etérica (fluídica) em pontos específicos do corpo humano e dos animais para recepção da energia Ki (essência da vida).
+        </h3>
+
+        <div class="titulo-objetivo">
+            <h2>Cura Pleidiana</h2>
+        </div>
+        <h3>
+            Harmonização dos principais centros de força para o despertar espiritual através da ativação de uma frequência amorosa profunda. Utiliza o poderoso símbolo Flor da Vida.
+        </h3>
+
+        <div class="titulo-objetivo">
+            <h2>Equilíbrio dos Meridianos Níveis 1 a 10</h2>
+        </div>
+        <h3>
+            <b>Nível 1 e 2:</b> limpeza dos Meridianos (linhas de energia que percorrem a superfície do corpo, ligadas aos órgãos vitais) com a dissolução de bloqueios energéticos. <b>Nível 3 e 4:</b> trabalha questões emocionais do passado ressignificando situações de conflito. <b>Nível 5 e 6:</b> Equilibra as energias masculinas e femininas do sistema energético, o Yin e o Yang, auxiliando na resolução de conflitos de gênero. <b>Nível 7 e 8:</b> Alinha o indivíduo com sua chama interior, favorecendo clareza de raciocínio e esperança num futuro melhor. Auxilia a transcender pequenas preocupações. <b>Nível 9 e 10:</b> Trabalha a resistência em todos os níveis, especialmente se houver estagnação, procrastinação. Libera a energia vital (Ki), permitindo um melhor fluxo na vida. Possibilita a conexão com ideias e pessoas positivas.
         </h3>
     </div>
 </section>

@@ -3,21 +3,20 @@
 @section('content')
 <section class="titulo">
     {{--Cria a imagem de fundo com o titulo da pagina--}}
-    <div id="img-bg" class="bg img-bg" ></div>
+    <div id="img-bg4" class="bg4 img-bg4" ></div>
     <div id="title" class="title-img tamanho-container">
-        <h1 class="">
-            A solução rápida dos seus problemas<br>através da Magia Divina.
+        <h1 class="title-divorcio" style="font-size: 60px; text-align:justify;">
+            Corte de laços energéticos que prendem a pessoas, eventos ou circunstâncias provocando sofrimento e dor.
         </h1>
     </div>
 </section>
 <section class="objetivo">
     <div class="texto-objetivos tamanho-container">
         <div class="titulo-objetivo">
-            <h2>A Magia no equilíbrio e cura<br>do ser humano e animais.</h2>
+            <h2>Fragmentos de Alma – Divórcio Energético,<br>(Energy Healing)</h2>
         </div>
         <h3>
-            Transformação da realidade através do socorro imediato, conforto emocional, amparo espiritual, reconexão com a autoestima, restauração do equilíbrio físico, emocional e mental, abertura para a prosperidade e abundância.
-            Utilização de princípios naturais e mágicos dos elementos da Natureza através da conexão com a Mãe Terra <b>(água, terra, fogo e ar);</b> princípio químico e sutil das ervas <b>(fito energia)</b>; cristais; mantras; símbolos, práticas ritualísticas e cerimoniais de limpeza, banimento, proteção e harmonização.
+            Eliminação dos laços energéticos “doentios” estabelecidos nos relacionamentos. Restaura a troca de energia saudável, eliminando dependências emocionais e ligações perniciosas entre as pessoas/situações, liberando raivas e ressentimentos, facilitando o desenvolvimento de relacionamentos gratificantes e harmoniosos, recuperando o senso de integridade individual.
         </h3>
     </div>
 </section>

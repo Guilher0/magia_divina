@@ -3,21 +3,21 @@
 @section('content')
 <section class="titulo">
     {{--Cria a imagem de fundo com o titulo da pagina--}}
-    <div id="img-bg" class="bg img-bg" ></div>
+    <div id="img-bg6" class="bg6 img-bg6" ></div>
     <div id="title" class="title-img tamanho-container">
-        <h1 class="">
-            A solução rápida dos seus problemas<br>através da Magia Divina.
+        <h1 class="title-divorcio" style="font-size: 60px; text-align:justify; color:#182633">
+            Ativação do Animal de Poder ou Totem para o encontro com energias e símbolos internos.
         </h1>
     </div>
 </section>
 <section class="objetivo">
     <div class="texto-objetivos tamanho-container">
         <div class="titulo-objetivo">
-            <h2>A Magia no equilíbrio e cura<br>do ser humano e animais.</h2>
+            <h2>Gaia Animal Reiki</h2>
         </div>
         <h3>
-            Transformação da realidade através do socorro imediato, conforto emocional, amparo espiritual, reconexão com a autoestima, restauração do equilíbrio físico, emocional e mental, abertura para a prosperidade e abundância.
-            Utilização de princípios naturais e mágicos dos elementos da Natureza através da conexão com a Mãe Terra <b>(água, terra, fogo e ar);</b> princípio químico e sutil das ervas <b>(fito energia)</b>; cristais; mantras; símbolos, práticas ritualísticas e cerimoniais de limpeza, banimento, proteção e harmonização.
+            Ativação do seu Animal de Poder ou Totem para auxiliar nos processos da vida. O animal de poder tem uma representação simbólica, arquetípica e ele é quem escolhe a pessoa como uma manifestação interior. Cada pessoa possui o seu próprio animal de poder que corresponde às características que necessita desenvolver em um determinado momento da vida.
+<br><b>É ativado a partir da utilização de um símbolo no chakra cardíaco.</b>
         </h3>
     </div>
 </section>

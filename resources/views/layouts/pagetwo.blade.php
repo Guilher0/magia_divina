@@ -3,21 +3,28 @@
 @section('content')
 <section class="titulo">
     {{--Cria a imagem de fundo com o titulo da pagina--}}
-    <div id="img-bg" class="bg img-bg" ></div>
+    <div id="img-bg2" class="bg2 img-bg2" ></div>
     <div id="title" class="title-img tamanho-container">
-        <h1 class="">
-            A solução rápida dos seus problemas<br>através da Magia Divina.
+        <h1 class="title-relax" style="font-size: 65px">
+            Relaxamento profundo e reconexão com a sua vitalidade.
         </h1>
     </div>
 </section>
 <section class="objetivo">
     <div class="texto-objetivos tamanho-container">
         <div class="titulo-objetivo">
-            <h2>A Magia no equilíbrio e cura<br>do ser humano e animais.</h2>
+            <h2>Reiki Usui</h2>
         </div>
         <h3>
-            Transformação da realidade através do socorro imediato, conforto emocional, amparo espiritual, reconexão com a autoestima, restauração do equilíbrio físico, emocional e mental, abertura para a prosperidade e abundância.
-            Utilização de princípios naturais e mágicos dos elementos da Natureza através da conexão com a Mãe Terra <b>(água, terra, fogo e ar);</b> princípio químico e sutil das ervas <b>(fito energia)</b>; cristais; mantras; símbolos, práticas ritualísticas e cerimoniais de limpeza, banimento, proteção e harmonização.
+            Terapia energética milenar que promove o equilíbrio, relaxamento e bem-estar em todos os níveis do ser, estimulando o processo de cura física, emocional e mental.
+        </h3>
+
+        <div class="titulo-objetivo">
+            <h2>Karuna Reiki</h2>
+        </div>
+        <h3>
+            É a aplicação de Reiki como uma forma de “Ação Compassiva, Amor Universal", com o objetivo de eliminar o sofrimento. Facilita a conexão com Seres Iluminados e com a Sabedoria Universal.
+Utilização de diversas técnicas e símbolos para canalização da energia "Ki" ou energia Universal direcionada aos chakras.
         </h3>
     </div>
 </section>
