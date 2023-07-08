@@ -5,7 +5,7 @@
 }
 
 /*Adiciona as fontes*/
-.title-img h1 {
+.titulo-principal {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
@@ -61,7 +61,7 @@ nav {
     top: 0;
     position: relative;
     z-index: -1;
-    width: 100%;
+    width: 100vw;
     height: 950px;
 
 
@@ -70,18 +70,26 @@ nav {
     background-size: cover;
 }
 
+
+/*--Edita fonte titulos--*/
 .title-img {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 45%;
     right: 10%;
     color: white;
     text-align:center;
 }
 
-.title-img h1 {
-    font-size: 75px;
+.titulo-principal {
+    font-size: 65px;
+    text-align:start;
 }
+
+
+.seis h1 {font-size: 60px; text-align:start; color:#182633; }
+
+
 
 /*--Container de Objetivos--*/
 
@@ -311,11 +319,10 @@ footer{
     align-items: center;
     height: 40px;
     width: 40px;
-    margin: 0 15px 0 0;
+    margin: 0 25px 0 0;
     text-decoration: none;
     border-radius: 100px;
     color: white;
-    border: 1px solid white;
     transition: all 0.5s ease;
 }
 .footer-col .medias-socias a i{
@@ -325,13 +332,15 @@ footer{
 }
 
 .footer-col .medias-socias a img{
-    max-height: 60%;
+    max-height: 125%;
     text-align: center;
 }
 
 .footer-col .medias-socias a:hover{
     color: #415aca;
     background-color: white;
+    width: 45px;
+    height: 45px;
 }
 
 
@@ -363,14 +372,115 @@ footer{
 
 
 /* Responsivo */
-@media (max-width: 800px) {
+
+
+
+@media (max-width: 768px) {
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
     }
+
+    .title-img{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        right: 30%;
+
+        color: white;
+        text-align:start;
+        transition: 1s;
+    }
+
+    .title-img h1 {
+        font-size: 50px;
+    }
+
+    .box-nav {
+        padding: 0 15px;
+    }
+
+    .box-nav ul{
+        list-style: none;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 20px;
+        position: relative;
+        top: 30px;
+        right: 10px;
+        transition: 0.5s;
+    }
 }
 @media (max-width:600px) {
+
+    nav div a img {
+        width: 200px;
+    }
+
     .footer-col{
         width: 100%;
+    }
+
+
+    .title-img{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        right: 30%;
+
+        color: white;
+        text-align:start;
+        transition: 1s;
+    }
+
+    .title-img h1 {
+        font-size: 45px;
+    }
+
+    .seis {
+        position: absolute;
+        top: 12%;
+        left: 5%;
+        right: 30%;
+
+        color: white;
+        text-align:start;
+        transition: 1s;
+        font-size: 12px;
+    }
+    .box-nav {
+        padding: 0 15px;
+    }
+
+    .box-nav ul{
+        list-style: none;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 20px;
+        position: relative;
+        top: 30px;
+        right: 10px;
+        transition: 0.5s;
+    }
+    .box-nav ul li a {
+        font-size: 12px;
+    }
+
+    .bg, .bg2 {
+        transition: 1s;
+        background-position: -150px 0;
+
+    }
+
+    .bg6 {
+        transition: 1s;
+        background-position: -200px 0;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    h3, p {
+        padding: 25px;
     }
 }

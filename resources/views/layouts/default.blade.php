@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="pt-br">
 
 <head>
     <title>Magia Divina</title>
+    <link rel="icon" href="{{ asset('imgIndex/favicon.png') }}" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{asset('css/index.css')}}"/>
     <link rel="stylesheet" href="{{asset('css/pages.css')}}"/>
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}"/>
@@ -14,7 +16,7 @@
     <header>
         <nav style="position: absolute;">
             <div style="margin:15px 0 0 15px; ">
-                <a href="{{''}}"><img src="{{'imgIndex/logo-nav.png'}}" alt="logo" style="max-width: 250px"></a>
+                <a href="{{'/'}}"><img src="{{'imgIndex/logo-nav.png'}}" alt="logo" style="max-width: 250px"></a>
             </div>
 
             <div class="box-nav">
