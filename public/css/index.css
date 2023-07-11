@@ -129,33 +129,38 @@ nav {
 
 .card-image {
     width: 100%;
-    height: 90%;
+    height: 80%;
     border-radius: 6px 6px 0 0;
   }
 
-.card .um {
-    background-image: url("../atendimentos/Ses_Reiki_102.webp");
-    background-size: cover;
+.category {
+    height: 40%;
+}
+
+
+.card .um a img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
   }
 
-div .dois {
-    background-image: url('../atendimentos/ouro.jpg');
-    background-size: cover;
+div .dois a img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
 }
 
-.tres {
-    background-image: url("../atendimentos/divorcio.jpg");
-    background-size: cover;
+.tres a img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
 }
 
-.quatro {
-    background-image: url("../atendimentos/sistema-nervoso.jpg");
-    background-size: cover;
+.quatro a img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
 }
 
-.cinco {
-    background-image: url("../atendimentos/animal.jpg");
-    background-size: cover;
+.cinco a img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
 }
 
 /*Tipo Atendimento*/
@@ -190,7 +195,6 @@ section .container-atendimento {
 }
 div .card {
     width: 240px;
-    height: 270px;
     padding: .4em;
 
     background: aliceblue;
@@ -206,6 +210,8 @@ div .card {
     transform: scale(0.98);
   }
 
+
+
   .category a {
     text-decoration: none;
     text-transform: uppercase;
@@ -213,7 +219,7 @@ div .card {
     font-weight: 700;
     color: #182633;
     text-align: center;
-    padding: 10px 0 5px 0;
+    padding: 0 0 5px 0;
   }
 
   .category a:hover {
@@ -410,6 +416,13 @@ footer{
         right: 10px;
         transition: 0.5s;
     }
+
+    .seis .titlesix {
+
+        text-shadow: #182633 1px 1px 1px;
+        color: white;
+        font-size: 47px;
+    }
 }
 @media (max-width:600px) {
 
@@ -426,7 +439,7 @@ footer{
         position: absolute;
         top: 30%;
         left: 5%;
-        right: 30%;
+        right: 27%;
 
         color: white;
         text-align:start;
@@ -434,7 +447,7 @@ footer{
     }
 
     .title-img h1 {
-        font-size: 45px;
+        font-size: 47px;
     }
 
     .seis {
@@ -443,11 +456,17 @@ footer{
         left: 5%;
         right: 30%;
 
-        color: white;
         text-align:start;
         transition: 1s;
-        font-size: 12px;
     }
+
+    .seis .titlesix {
+
+        text-shadow: #182633 1px 1px 1px;
+        color: white;
+        font-size: 47px;
+    }
+
     .box-nav {
         padding: 0 15px;
     }

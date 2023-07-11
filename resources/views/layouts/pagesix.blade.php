@@ -5,7 +5,7 @@
     {{--Cria a imagem de fundo com o titulo da pagina--}}
     <div id="img-bg6" class="bg6 img-bg6" ></div>
     <div id="title" class="seis title-img tamanho-container">
-        <h1 class="titulo-principal title-six ">
+        <h1 class="titulo-principal titlesix">
             Animal de Poder ou Totem para o encontro com energias e símbolos internos.
         </h1>
     </div>
@@ -32,27 +32,27 @@
         <div class="cards">
 
             <div class="card">
-                <div class="card-image um"></div>
+                <div class="card-image um"><a href="/reiki"><img src="{{ asset('atendimentos/Ses_Reiki_102.webp') }}" alt=""></a></div>
                 <div class="category"> <a href="/reiki">Reiki Usui e Karuna Reiki</a></div>
             </div>
 
             <div class="card">
-                <div class="card-image dois"></div>
+                <div class="card-image dois"><a href="/sevenReiki"><img src="{{ asset('atendimentos/ouro.jpg') }}" alt=""></a></div>
                 <div class="category"> <a href="/sevenReiki">Seven Reiki / Estrela de Midas</a> </div>
             </div>
 
             <div class="card">
-                <div class="card-image tres"></div>
+                <div class="card-image tres"><a href="/fragmentosAlma"><img src="{{ asset('atendimentos/divorcio.jpg') }}" alt=""></a></div>
                 <div class="category"> <a href="/fragmentosAlma">Fragmentos de Alma / Divórcio Energético</a> </div>
             </div>
 
             <div class="card">
-                <div class="card-image quatro"></div>
+                <div class="card-image quatro"><a href="/acupunturaEterica"><img src="{{ asset('atendimentos/sistema-nervoso.jpg') }}" alt=""></a></div>
                 <div class="category"> <a href="/acupunturaEterica">Acupuntura Etérica/Cura Pleidiana/Equilíbrio dos Meridianos</a></div>
             </div>
 
             <div class="card">
-                <div class="card-image cinco"></div>
+                <div class="card-image cinco"><a href="/animalReiki"><img src="{{ asset('atendimentos/animal.jpg') }}" alt=""></a></div>
                 <div class="category"> <a href="/animalReiki">Gaia Animal Reiki</a></div>
             </div>
         </div>
